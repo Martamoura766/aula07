@@ -2,10 +2,10 @@
 :root {
   --fundo: #fbf7fc;             /* Rosa clarinho de fundo */
   --cartao: #ffffff;            /* Fundo do cartão/container */
-  --texto-principal: #331f3b;   /* Roxo bem escuro para facilitar a leitura */
+  --texto-principal: #0a0a0a;   /* Roxo bem escuro para facilitar a leitura */
   --texto-secundario: #6e4473;  /* Roxo médio para subtítulos e textos */
-  --rosa-destaque: #e85d9e;     /* Rosa vibrante para botões */
-  --rosa-hover: #d23d83;        /* Rosa mais escuro ao passar o mouse */
+  --rosa-destaque: hsl(0, 88%, 46%);     /* Rosa vibrante para botões */
+  --rosa-hover: #f02b08;        /* Rosa mais escuro ao passar o mouse */
   --sombra: rgba(110, 68, 115, 0.15); /* Sombra roxeada suave */
 }
 

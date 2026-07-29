@@ -22,7 +22,7 @@ function App() {
 
       {/* Botão de Ação */}
       <button onClick={() => alert('Simulador em breve!')}>
-        Criar Meu Orçamento Pop
+         Orçamento Pop
       </button>
     </div>
   )
