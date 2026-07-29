@@ -1,16 +1,26 @@
-# React + Vite
+# Primeiros Passos no React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Este é o meu **Primeiro Projeto GitHub**, desenvolvido durante meu aprendizado inicial de React. O projeto utiliza o Vite como construtor para criar uma aplicação web simples, focando na estrutura básica e conceitos iniciais de componentes.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **React** (Biblioteca JavaScript para interfaces)
+- **Vite** (Ferramenta de build rápida)
+- **HTML5 & CSS3**
+- **JavaScript (ES6+)**
 
-## React Compiler
+## 🎯 Objetivo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O objetivo deste projeto é aplicar os conceitos fundamentais de React, entender a estrutura de pastas de um projeto Vite e praticar o fluxo de versionamento utilizando Git e GitHub.
 
-## Expanding the Oxlint configuration
+## 🛠️ Como Executar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Siga os passos abaixo para rodar o projeto localmente na sua máquina:
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+   Acesse a pasta do projeto:cd aula07-main
+   Instale as dependências:npm install
+   Inicie o servidor de desenvolvimento:npm run dev
+   Abra o navegador no endereço exibido no terminal (geralmente http://localhost:5173).
