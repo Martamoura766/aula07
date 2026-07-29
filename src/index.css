@@ -1,0 +1,103 @@
+/* Configuração geral e cores */
+:root {
+  --fundo: #fbf7fc;             /* Rosa clarinho de fundo */
+  --cartao: #ffffff;            /* Fundo do cartão/container */
+  --texto-principal: #331f3b;   /* Roxo bem escuro para facilitar a leitura */
+  --texto-secundario: #6e4473;  /* Roxo médio para subtítulos e textos */
+  --rosa-destaque: #e85d9e;     /* Rosa vibrante para botões */
+  --rosa-hover: #d23d83;        /* Rosa mais escuro ao passar o mouse */
+  --sombra: rgba(110, 68, 115, 0.15); /* Sombra roxeada suave */
+}
+
+/* Reset básico e centralização da página */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--fundo);
+  color: var(--texto-principal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container principal (cartão central) */
+.container {
+  background-color: var(--cartao);
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px var(--sombra);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+  border-top: 6px solid var(--rosa-destaque);
+}
+
+/* Título principal: Moura Modas */
+h1 {
+  color: var(--rosa-destaque);
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+  font-size: 2rem;
+}
+
+/* Subtítulo: Simulador de Orçamento */
+h2 {
+  color: var(--texto-secundario);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+/* Parágrafo explicativo */
+p {
+  color: var(--texto-secundario);
+  line-height: 1.6;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Botão principal */
+button {
+  background-color: var(--rosa-destaque);
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  width: 100%;
+}
+
+/* Efeito ao passar o mouse por cima do botão */
+button:hover {
+  background-color: var(--rosa-hover);
+  transform: translateY(-2px);
+}
+
+/* Efeito ao clicar no botão */
+button:active {
+  transform: translateY(0);
+}
+/* Estilo da lista de benefícios */
+.lista-beneficios {
+  list-style: none; /* Remove as bolinhas padrão */
+  padding: 0;
+  margin: 0 0 2rem 0;
+  text-align: left;
+}
+
+.lista-beneficios li {
+  color: var(--texto-secundario);
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.lista-beneficios strong {
+  color: var(--texto-principal);
+}
